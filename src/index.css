@@ -1,0 +1,389 @@
+.Nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.Nav a{
+    /*this is a comment*/
+    padding: 20px;
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.LoginRegisterForms input,
+.LoginRegisterForms select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.LoginRegisterForms input[type= 'file']{
+    border: none;
+}
+.LoginRegisterForms button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: darkcyan;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.LoginRegisterForms a{
+    text-decoration: none;
+}
+.LoginRegisterForms h1{
+    color: darkcyan;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.LoginRegisterForms img{
+    width: 60px;
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.LoginRegisterForms .grouped{
+    display: flex;
+    gap: 10px;
+}
+
+.FormInputs{
+    display: flex;
+    justify-content: flex-end;
+}
+.LoginRegisterForms{
+    width: 50%;
+    margin: 50px auto;
+}
+.links a{
+    color: rgb(99, 99, 99);
+}
+.div-new{
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.LoginContainer button:first-child{
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    border: none;
+    border: 1px solid rgb(73, 73, 73);
+    background: transparent;
+    border-radius: 20px;
+    color: black;
+}
+
+
+.header img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 0 -150px;
+}
+.header div{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    background: rgb(207, 207, 207);
+    padding: 20px;
+    margin-top: -10%;
+    z-index: 1;
+    border-radius: 10px 10px 0 0;
+}
+.header .em{
+    font-weight: 900;
+    color: red;
+    font-size: 2.5rem;
+}
+.header p{
+    word-spacing: 5px;
+    padding: 5px 0;
+    margin-bottom: 20px;
+    color: rgb(74, 74, 74);
+}
+.header a{
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid darkcyan;
+    text-decoration: none;
+    border-radius: 40px;
+    color: darkcyan;
+}
+
+
+.notifications{
+    padding: 0 5%;
+}
+.not img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.not{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.not .child{
+    flex: 48%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(228, 240, 247);
+}
+.not .child div{
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding-bottom: 6px;
+}
+.not .child a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(3, 116, 116);
+    font-size: 0.875rem;
+    border: 1px solid rgb(3, 116, 116);
+    border-radius: 20px;
+    padding: 6px 15px;
+}
+.notifications h2{
+    color: darkcyan;
+    padding: 10px 0;
+}
+.notifications p{
+    color: rgb(77, 77, 77);
+    padding: 5px 0;
+}
+.notifications small{
+    color: green;
+}
+.parent{
+    background: linear-gradient(to bottom, transparent, rgb(187, 206, 206));
+}
+.dashboard-content {
+    display: grid;
+    align-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .widget {
+    background-color: #a1bfbe;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .not-found {
+    text-align: center;
+  }
+  
+  .not-found h1 {
+    font-size: 48px;
+    color: #3e1313;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+
+  }
+  
+  .not-found p {
+    font-size: 18px;
+    color: #777;
+  }
+
+  .bdy {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+.error{
+
+    height: 50px;
+   }
+
+.parent{
+    background: linear-gradient(to bottom, transparent, rgb(187, 206, 206));
+}
+
+
+/*dashboard area */
+.dashboard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dashboard .div:first-child a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.dashboard .div:first-child a:hover{
+    background: whitesmoke;
+    color: darkcyan;
+    border-bottom: 2px solid red;
+}
+.dashboard .div:first-child{
+    flex: 20%;
+    background: darkcyan;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.dashboard .div:last-child{
+    flex: 80%;
+}
+.dashboard .div:first-child img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    border: 2px solid rgb(125, 186, 186);
+}
+.dashboard .div:first-child figcaption{
+    text-align: center;
+    color: white;
+    padding: 10px 0 5px 0;
+}
+.dashboard .div:first-child small{
+    display: block;
+    text-align: center;
+    color: white;
+}
+.dashboard .div:first-child hr{
+    background-color: rgb(185, 185, 185);
+    border: 0;
+    height: 1px;
+    margin: 10px 0 0 0;
+}
+.dashboard .div:first-child div{
+    margin-bottom: 20%;
+}
+.active{
+    background: red;
+    border-bottom: 2px solid white;
+}
+
+.dashboard .div:last-child .system_name{
+    padding: 20px;
+    text-align: center;
+    background: rgb(232, 224, 224);
+}
+.dashboard .div:last-child .system_name p{
+    font-size: 2rem;
+    font-weight: 900;
+    color: darkcyan;
+}
+.quickStats{
+    display: flex;
+    gap: 2%;
+    text-align: center;
+    padding: 30px;
+}
+.quickStats div{
+    flex: 32%;
+    background: rgb(13, 96, 123);
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
+.quickStats div:nth-child(2){
+    background: teal;
+}
+.quickStats div:nth-child(3){
+    background: tomato;
+}
+.quickStats p{
+    padding: 6px 0;
+    font-size: 1.2rem;
+}
+.payments table,
+.payments_effected table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.payments th, 
+.payments td,
+.payments_effected th,
+.payments_effected td{
+    text-align: left;
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+.payments tr:nth-child(even),
+.payments_effected tr:nth-child(even){
+    background: #dddddd;
+}
+.payments h1{
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+.payments{
+    padding: 0 5%;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+
+.filter{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    align-items: flex-end;
+}
+.filter form:first-child{
+    flex: 50%;
+}
+.filter input{
+    margin-right: 5px;
+    padding: 5px;
+    border: none;
+    border: 1px solid #dddddd;
+}
+.filter button{
+    background: darkcyan;
+    color: white;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+}
+.filter form:last-child{
+    flex: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.filter label{
+    color: grey;
+}
+.payments_effected{
+    padding: 0 5%;
+}
+.payments_effected h1{
+    padding: 10px 0;
+    font-size: 1.3rem;
+}

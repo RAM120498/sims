@@ -1,0 +1,100 @@
+.body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post h2 {
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    margin-bottom: 10px;
+}
+
+.blog-post .read-more {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.blog-post .read-more:hover {
+    text-decoration: underline;
+}
+
+
+.notifications{
+    padding: 0 5%;
+}
+.not img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.not{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.not .child{
+    flex: 48%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(228, 240, 247);
+}
+.not .child div{
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding-bottom: 6px;
+}
+.not .child a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(3, 116, 116);
+    font-size: 0.875rem;
+    border: 1px solid rgb(3, 116, 116);
+    border-radius: 20px;
+    padding: 6px 15px;
+}
+.notifications h2{
+    color: darkcyan;
+    padding: 10px 0;
+}
+.notifications p{
+    color: rgb(77, 77, 77);
+    padding: 5px 0;
+}
+.notifications small{
+    color: green;
+}
+.parent{
+    background: linear-gradient(to bottom, transparent, rgb(187, 206, 206));
+}
